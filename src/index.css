@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Harrington;
+  src: url(./Font/HarringtonPlain001001-vv54.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(./Font/QuicksandbookobliqueRegular-e1Zx.otf);
+}
+
+@font-face {
+  font-family: Quicksand2;
+  src: url(./Font/QuicksandboldobliqueRegular-XE3o.otf);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(./Font/NunitoRegular-vmABZ.ttf);
+}
+
+@font-face {
+  font-family: Elsie;
+  src: url(./Font/Elsie-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  font-family: Harrington;
+  color: #FAC161;
+}
+
+.content {
+  font-family: Quicksand;
+}
+
+.content_2 {
+  font-family: Quicksand2;
+}
+
+.title_1 {
+  font-family: Elsie;
+}
+
+.tombol {
+  color: #000;
+  background-color:#FAC161;
+  border: 1px solid #FAC161;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+  font-family: Nunito;  
+}
+
+.tombol:hover {
+  color: #FAC161;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
